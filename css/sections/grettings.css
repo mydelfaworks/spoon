@@ -1,27 +1,101 @@
 .grettings {
     background: url(../../img/grettings/bg.png) no-repeat center/cover;
+    padding-top: 30px;
 }
 
-.container {}
-
-.header {}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {}
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
 
-.nav__item {}
+.nav__item a {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+}
 
-.nav__item_dot {}
+.nav__item:last-child a {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 11px 22px;
+}
 
-.desc {}
+.nav__item a:hover {
+    color: var(--colorGreen);
+    border-color: var(--colorGreen);
+}
 
-.desc__title {}
+.nav__item_dot {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
 
-.desc__text {}
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+}
 
-.btn {}
+.desc__title {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+}
 
-.desc__btn {}
+.desc__text {
+    margin-top: 30px;
+    font-family: var(--fontIBM);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 185%;
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    background-color: var(--colorGreen);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+
+    transition: transform 0.4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.desc__btn {
+    margin-top: 60px;
+}
+
+/* https://github.com/mydelfaworks/spoon */
+/* tolik */
