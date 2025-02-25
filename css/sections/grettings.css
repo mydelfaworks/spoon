@@ -9,7 +9,12 @@
     align-items: center;
 }
 
-.logo {}
+.logo {
+    transition: transform 0.35s;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
 
 .nav {}
 
@@ -86,11 +91,11 @@
     text-align: center;
     color: #fff;
 
-    transition: transform 0.4s;
+    transition: transform 0.35s;
 }
 
 .btn:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .desc__btn {
