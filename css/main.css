@@ -4,3 +4,4 @@
 @import url(sections/services.css);
 @import url(sections/prot.css); /* advert.css, переименован из-за ошибки загрузки с блокировщиков рекламы*/
 @import url(sections/offers.css);
+@import url(sections/party.css);
