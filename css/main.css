@@ -2,6 +2,7 @@
 @import url(basic.css);
 @import url(sections/grettings.css);
 @import url(sections/services.css);
-@import url(sections/prot.css); /* advert.css, переименован из-за ошибки загрузки с блокировщиков рекламы*/
+@import url(sections/prot.css); /* advert.css, переименован из-за ошибки загрузки с блокировщиком рекламы*/
 @import url(sections/offers.css);
 @import url(sections/party.css);
+@import url(sections/footer.css);
