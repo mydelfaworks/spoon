@@ -36,3 +36,15 @@
 .party__btn {
 
 }
+
+@media(max-width: 665px) {
+    .party__content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        /* text-align: center; */
+    }
+    /* .party__btn {
+        margin-top: 40px;
+    } */
+}

@@ -65,3 +65,25 @@
     margin-top: 12px;
 }
 
+@media(max-width: 1150px) {
+    .offers__card:first-child {
+        padding-right: 0;
+    }
+    .offers__card:last-child {
+        padding-left: 0;
+    }
+    .offers .container {
+        padding: 85px 10px;
+    }
+}
+@media(max-width: 850px) {
+    .offers__card {
+        flex-direction: column;
+    }
+    .offers__card:last-child {
+        margin-top: 56px;
+    }
+    .offers__info {
+        margin-top: 73px;
+    }
+}

@@ -44,7 +44,10 @@
    margin-top: 13px;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 950px) {
+   .service {
+      margin-top: 70px;
+   }
    .service__list {
       flex-direction: column;
    }
